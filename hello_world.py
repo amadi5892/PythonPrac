@@ -1,6 +1,6 @@
 print('This is a string {}'.format('INSERTED'))
 # This is a string INSERTED
-print('The {0} {0} {0}'.format('fox','brown','quick'))
+# print('The {0} {0} {0}'.format('fox','brown','quick'))
 # The fox fox fox //if there are more arguments than the ones being used, an error will be presented, but code still runs
 print('The {q} {b} {f}'.format(f='fox',b='brown',q='quick'))
 # The quick brown fox
@@ -76,3 +76,9 @@ myset.add(1)
 print(myset)
 myset.add(2)
 print(myset)
+
+# Booleans
+print(1 == 1)
+
+myfile = open('d:\\Users\\User\\Desktop\\Python Notes & Resources\\test.txt')
+print(myfile.read())
