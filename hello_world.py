@@ -69,3 +69,10 @@ print(type(t))
 t = ('a','a','b')
 print(t.count('a'))
 mylist[0] = 'NEW'
+
+# Sets
+myset = set()
+myset.add(1)
+print(myset)
+myset.add(2)
+print(myset)
