@@ -83,3 +83,8 @@ print(1 == 1)
 myfile = open('d:\\Users\\User\\Desktop\\Python Notes & Resources\\test.txt')
 print(myfile.readlines())
 # ['Hello this is a text file\n', 'this is the second line\n', 'this is the third line']
+
+with open('d:\\Users\\User\\Desktop\\Python Notes & Resources\\test.txt') as my_new_file:
+    contents = my_new_file.read()
+
+print(contents)
