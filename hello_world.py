@@ -61,3 +61,11 @@ print(letter.upper())
 print(d['key1'][2].upper())
 d['key3']=100
 print(d)
+
+# Tuple
+t = (1,2,3)
+mylist = [1,2,3]
+print(type(t))
+t = ('a','a','b')
+print(t.count('a'))
+mylist[0] = 'NEW'
