@@ -81,4 +81,5 @@ print(myset)
 print(1 == 1)
 
 myfile = open('d:\\Users\\User\\Desktop\\Python Notes & Resources\\test.txt')
-print(myfile.read())
+print(myfile.readlines())
+# ['Hello this is a text file\n', 'this is the second line\n', 'this is the third line']
