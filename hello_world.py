@@ -98,3 +98,10 @@ with open(path + 'test2.txt', 'w') as f:
 
 with open(path + 'test2.txt', 'r') as f:
     print(f.read())
+
+hungry = True
+
+if hungry:
+    print('FEED ME!')
+else:
+    print("I'm not hungry")
