@@ -88,3 +88,13 @@ with open('d:\\Users\\User\\Desktop\\Python Notes & Resources\\test.txt') as my_
     contents = my_new_file.read()
 
 print(contents)
+
+with open('d:\\Users\\User\\Desktop\\Python Notes & Resources\\test.txt','r') as f:
+    print(f.read())
+
+path = 'd:\\Users\\User\\Desktop\\Python Notes & Resources\\'
+with open(path + 'test2.txt', 'w') as f:
+    f.write('I CREATED THIS FILE!')
+
+with open(path + 'test2.txt', 'r') as f:
+    print(f.read())
