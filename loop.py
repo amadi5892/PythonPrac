@@ -104,15 +104,32 @@
 
 # result = input('What is your name? ')
 
-mystring = 'hello'
-mylist = []
+# mystring = 'hello'
+# mylist = []
 
-for letter in mystring:
-    mylist.append(letter)
+# for letter in mystring:
+#     mylist.append(letter)
     
-mylist = [letter for letter in mystring]
-print(mylist)
+# mylist = [letter for letter in mystring]
+# print(mylist)
 
-celcius = [0,10,20,34.5]
-fahrenheit = [( (9/5)*temp + 32) for temp in celcius]
-print(fahrenheit)
+# celcius = [0,10,20,34.5]
+# fahrenheit = [( (9/5)*temp + 32) for temp in celcius]
+# print(fahrenheit)
+
+# def say_hello(name='Default'):
+#     print(f'Hello {name}')
+
+# def add_num(num1,num2):
+#     return num1 + num2
+
+# res = add_num(3,4)
+
+
+# def print_result(a,b):
+#     print(a+b)
+
+# def return_result(a,b):
+#     return a + b
+
+# res = print_result(10,20)
