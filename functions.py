@@ -68,3 +68,92 @@
 # print(result)
 # print(name)
 # print(hours)
+
+# example = [1,2,3,4,5,6,7]
+
+# from random import shuffle
+
+# def shuffle_list(mylist):
+#     shuffle(mylist)
+#     return mylist
+
+# mylist = [' ','O',' ']
+
+# def player_guess():
+#     guess = ''
+
+#     while guess not in ['0','1','2']:
+#         guess = input('Pick a number: 0,1, or 2 ')
+#     return int(guess)
+
+# def check_guess(mylist,guess):
+#     if mylist[guess] == 'O':
+#         print("Correct!")
+#     else:
+#         print('Wrong guess!')
+#         print(mylist)
+
+# # INITIAL LIST
+# mylist = [' ', 'O', ' ']
+# # SHUFFLE LIST
+# mixedup_list = shuffle_list(mylist)
+# # USER GUESS
+# guess = player_guess()
+# # CHECK GUESS
+# print(check_guess(mixedup_list,guess))
+
+# def myfunc(a,b,c=0,d=0):
+#     # Returns 5% of the sum of a and b 
+#     return sum((a,b,c,d)) * 0.05
+
+# print(myfunc(40,60,100,200))
+
+# def myfunc(*args):
+#     for item in args:
+#         print(item)
+
+# print(myfunc(40,60,100))
+
+# def myfunc1(**kwargs):
+#     if 'fruit' in kwargs:
+#         print('My fruit of choice is {}'.format(kwargs['fruit']))
+#     else:
+#         print('I did not find any fruit here')
+
+# print(myfunc1(fruit = 'apple', veggie = 'lettuce'))
+
+# def myfunc(*args,**kwargs):
+#     print(args)
+#     print(kwargs)
+#     print('I would like {} {}'.format(args[0],kwargs['fruit']))
+
+# myfunc(10,20,30,fruit = 'orange', food = 'eggs',animal = 'dog')
+
+# def myfunc(*args):
+#     mylist = []
+
+#     for i in args:
+#         mylist.append(i)
+
+#     return mylist
+
+# print(myfunc(1,2,3,4,5,6))
+
+def myfunc(str):
+    mylist = []
+    newlist = []
+
+    for x in str:
+        mylist.append(x)
+        if mylist.index(x) % 2 == 0:
+            newlist.append(x.upper())
+        elif mylist.index(x) % 2 != 0:
+            newlist.append(x.lower())
+        else:
+            pass
+
+    y = ''.join(newlist)
+    return y
+
+
+print(myfunc('Anthropology'))
